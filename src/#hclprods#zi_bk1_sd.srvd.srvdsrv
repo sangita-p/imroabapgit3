@@ -1,4 +1,5 @@
 @EndUserText.label: 'Service Definistion on CDS ZI_BK1'
 define service /HCLPRODS/ZI_BK1_SD {
   expose /HCLPRODS/ZI_BK1 as Booking;
+  expose I_Currency as Currency;
 }

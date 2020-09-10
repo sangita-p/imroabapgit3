@@ -14,7 +14,7 @@
     title: { type: #STANDARD, value: 'Booking' }
   }
  }
-define view /HCLPRODS/ZI_BK1 
+define root view /HCLPRODS/ZI_BK1 
 as select from /hclprods/ztbk1 as Booking {
      @UI: {
           lineItem: [ { position: 10, importance: #HIGH, label: 'Booking ID' } ],
